@@ -1,4 +1,7 @@
-
+/*
+ * F74006056 劉弘偉
+ * 用來存每一筆資料的class
+ */
 public class Housedata {
 	public int check(int com,String in)
 	{

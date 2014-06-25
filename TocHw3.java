@@ -1,3 +1,10 @@
+/*
+ * F74006056 劉弘偉
+ * 將網站資料一個一個字抓下來做DFA
+ * 並用skip&&compare去跳過不需要擷取的資料
+ * 每讀完一個object符合就存入vector
+ * 最後將vector的價格做平均並output
+ */
 import java.net.URL;
 import java.net.MalformedURLException;
 import java.net.URLConnection;
